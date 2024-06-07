@@ -3,3 +3,27 @@
 1. From 0 to 400px: set the background color to lawn green;
 2. From 401px to 599px: set the background color to blue violet;
 3. From 600px and wider: set the background color to dark red. */
+
+/* 0 to 400px  */
+
+@media screen and (max-width: 400px) {
+  body {
+    background-color: lawngreen;
+  }
+}
+
+/* 401px to 599px */
+
+@media screen and (min-width: 401px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+/* 600px and wider */
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: darkred;
+  }
+}
